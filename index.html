@@ -1,0 +1,59 @@
+
+<head>
+  <style>
+  h1 {
+    color:white;
+    font-size:65;
+    text-align:center;
+  }
+  body {
+    background-image:url(bruinslogo.png);
+  }
+  a {
+    color:white;
+  }
+  p {
+    color:white;
+  }
+  </style>
+</head>
+
+
+<body>
+<center>
+  <h1>Boston Bruins</h1>
+<p>This is a website about the Boston Bruins.The Boston Bruins are a National Hockey League team based in Boston, Massachusetts. </p>
+</center>
+
+<center>
+<a href=https://www.nhl.com/bruins/>Official website of the Boston Bruins </a>
+</center>
+<br>
+
+<center>
+<img src="Bruins.jpg">
+</center>
+
+<script>
+  alert("Welcome to the non-official Boston Bruins hobby website");
+  var name= prompt ("What is your name?");
+  alert("The Bruins are the best, "+name);
+  
+  var answer = prompt("Do you like the Bruins?");
+  if(answer=="yes"){
+    alert("Nice!! You are awesome!");
+  }
+  else if(answer=="no"){
+    var NHLTeam= prompt ("What is your favorite NHL Team?");
+    if (NHLTeam=="Bruins"){
+      alert("Go bruins!");
+    }
+    else {
+      alert("You are not a Bruins fan! Get out!");
+      window.location = "http://google.com";
+    }
+  }
+</script>
+
+
+</body>
